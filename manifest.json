@@ -1,12 +1,11 @@
 {
-  "manifest_version":2,
-  "version":"1.0",
-  "name":"copy code",
-  "content_scripts":[
-    {
-     "matches":["*://*.stackoverflow.com/*"],
-     "js":["main.js"]
-    }
-  ]
+	"manifest_version":3,
+	"version":"1.0",
+	"name":"Test",
+	"content_scripts":[
+		{
+		 "matches":["<all_urls>"],
+		 "js":["main.js"]
+		}
+	]
 }
-
